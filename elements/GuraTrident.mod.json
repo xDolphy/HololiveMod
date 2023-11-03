@@ -1,0 +1,40 @@
+{
+  "_fv": 47,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 1,
+    "texture": "trident",
+    "customModelName": "guratrident:default",
+    "name": "Gura Trident",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:ReferencesCreativeTab"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 500,
+    "actionSound": {
+      "value": "item.trident.throw"
+    },
+    "hasGlow": false,
+    "animation": "spear",
+    "enableMeleeDamage": true,
+    "damageVsEntity": 11.5,
+    "onRangedItemUsed": {
+      "name": "GuraTridentUse"
+    },
+    "bulletPower": 2.0,
+    "bulletDamage": 10.0,
+    "bulletKnockback": 5,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:GuraTrident"
+    },
+    "bulletModel": "ModelGuraTrident_Converted",
+    "customBulletModelTexture": "guratrident.png"
+  }
+}

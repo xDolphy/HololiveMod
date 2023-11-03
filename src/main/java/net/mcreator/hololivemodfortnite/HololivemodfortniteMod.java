@@ -29,6 +29,10 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.hololivemodfortnite.init.HololivemodfortniteModTabs;
+import net.mcreator.hololivemodfortnite.init.HololivemodfortniteModItems;
+import net.mcreator.hololivemodfortnite.init.HololivemodfortniteModEntities;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -46,6 +50,11 @@ public class HololivemodfortniteMod {
 	public HololivemodfortniteMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		HololivemodfortniteModItems.REGISTRY.register(bus);
+		HololivemodfortniteModEntities.REGISTRY.register(bus);
+
+		HololivemodfortniteModTabs.REGISTRY.register(bus);
 
 	}
 

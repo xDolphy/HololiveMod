@@ -1,0 +1,7 @@
+{
+  "parent": "hololivemodfortnite:custom/guratrident",
+  "textures": {
+    "0": "hololivemodfortnite:block/guratrident",
+    "particle": "hololivemodfortnite:item/trident"
+  }
+}
