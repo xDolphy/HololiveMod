@@ -9,6 +9,8 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.minecraft.client.renderer.entity.ThrownItemRenderer;
+
 import net.mcreator.hololivemodfortnite.client.renderer.GuraTridentRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
@@ -16,5 +18,6 @@ public class HololivemodfortniteModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(HololivemodfortniteModEntities.GURA_TRIDENT.get(), GuraTridentRenderer::new);
+		event.registerEntityRenderer(HololivemodfortniteModEntities.ITEMXPOTATO.get(), ThrownItemRenderer::new);
 	}
 }

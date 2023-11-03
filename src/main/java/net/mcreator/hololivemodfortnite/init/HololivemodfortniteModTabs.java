@@ -20,6 +20,7 @@ public class HololivemodfortniteModTabs {
 	public static final RegistryObject<CreativeModeTab> REFERENCES_CREATIVE_TAB = REGISTRY.register("references_creative_tab",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.hololivemodfortnite.references_creative_tab")).icon(() -> new ItemStack(Blocks.WATER)).displayItems((parameters, tabData) -> {
 				tabData.accept(HololivemodfortniteModItems.GURA_TRIDENT.get());
+				tabData.accept(HololivemodfortniteModItems.ITEMXPOTATO.get());
 			})
 
 					.build());

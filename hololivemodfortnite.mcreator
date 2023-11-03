@@ -49,6 +49,82 @@
           }
         ]
       }
+    },
+    {
+      "name": "Itemxpotato",
+      "type": "rangeditem",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "itemxpotato",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hololivemodfortnite/entity/ItemxpotatoEntity.java",
+          "src/main/resources/assets/hololivemodfortnite/models/item/itemxpotato.json",
+          "src/main/java/net/mcreator/hololivemodfortnite/item/ItemxpotatoItem.java"
+        ]
+      },
+      "path": "~/X-Potato"
+    },
+    {
+      "name": "Proxpotatocollision",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "proxpotatocollision",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hololivemodfortnite/procedures/ProxpotatocollisionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/X-Potato"
+    },
+    {
+      "name": "ItemxpotatoRangedItemUsed",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "itemxpotato_ranged_item_used",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hololivemodfortnite/procedures/ItemxpotatoRangedItemUsedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/X-Potato"
     }
   ],
   "variable_elements": [
@@ -63,16 +139,23 @@
   "language_map": {
     "en_us": {
       "item.hololivemodfortnite.gura_trident": "Gura Trident",
-      "item_group.hololivemodfortnite.references_creative_tab": "Holocraft References  "
+      "item_group.hololivemodfortnite.references_creative_tab": "Holocraft References  ",
+      "item.hololivemodfortnite.itemxpotato": "X-Potato"
     },
     "ja_jp": {
       "item.hololivemodfortnite.gura_trident": "Gura Trident",
-      "item_group.hololivemodfortnite.references_creative_tab": "Holocraft References  "
+      "item_group.hololivemodfortnite.references_creative_tab": "Holocraft References  ",
+      "item.hololivemodfortnite.itemxpotato": "X-Potato"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "X-Potato",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "hololivemodfortnite",
