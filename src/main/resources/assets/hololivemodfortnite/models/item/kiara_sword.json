@@ -1,0 +1,7 @@
+{
+  "parent": "hololivemodfortnite:custom/kiarasword",
+  "textures": {
+    "0": "hololivemodfortnite:block/kiarasword",
+    "particle": "hololivemodfortnite:item/trident"
+  }
+}

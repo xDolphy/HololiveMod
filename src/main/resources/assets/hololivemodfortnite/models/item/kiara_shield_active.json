@@ -1,0 +1,7 @@
+{
+  "parent": "hololivemodfortnite:custom/kiarashieldholding",
+  "textures": {
+    "0": "hololivemodfortnite:block/kiarashield",
+    "particle": "hololivemodfortnite:item/trident"
+  }
+}

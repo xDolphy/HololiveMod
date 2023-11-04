@@ -30,6 +30,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.hololivemodfortnite.init.HololivemodfortniteModTabs;
+import net.mcreator.hololivemodfortnite.init.HololivemodfortniteModMobEffects;
 import net.mcreator.hololivemodfortnite.init.HololivemodfortniteModItems;
 import net.mcreator.hololivemodfortnite.init.HololivemodfortniteModEntities;
 
@@ -55,6 +56,8 @@ public class HololivemodfortniteMod {
 		HololivemodfortniteModEntities.REGISTRY.register(bus);
 
 		HololivemodfortniteModTabs.REGISTRY.register(bus);
+
+		HololivemodfortniteModMobEffects.REGISTRY.register(bus);
 
 	}
 

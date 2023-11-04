@@ -1,0 +1,33 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Special",
+    "renderType": 1,
+    "texture": "trident",
+    "customModelName": "kiarashield:default",
+    "name": "Phoenix Shield",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:ReferencesCreativeTab"
+    },
+    "harvestLevel": 0,
+    "efficiency": 0.0,
+    "attackSpeed": 0.0,
+    "enchantability": 0,
+    "damageVsEntity": 0.0,
+    "usageCount": 500,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "KiaraShieldRightClick"
+    },
+    "onRightClickedOnBlock": {
+      "name": "KiaraShieldRightClick"
+    }
+  }
+}

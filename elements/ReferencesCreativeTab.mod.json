@@ -4,7 +4,7 @@
   "definition": {
     "name": "Holocraft References  ",
     "icon": {
-      "value": "Blocks.WATER"
+      "value": "CUSTOM:Itemxpotato"
     },
     "showSearch": false
   }

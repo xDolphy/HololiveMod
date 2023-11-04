@@ -25,7 +25,8 @@
           "src/main/java/net/mcreator/hololivemodfortnite/client/renderer/GuraTridentRenderer.java",
           "src/main/resources/assets/hololivemodfortnite/models/item/gura_trident.json"
         ]
-      }
+      },
+      "path": "~/GuraTrident"
     },
     {
       "name": "GuraTridentUse",
@@ -48,7 +49,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/GuraTrident"
     },
     {
       "name": "Itemxpotato",
@@ -125,11 +127,230 @@
         ]
       },
       "path": "~/X-Potato"
+    },
+    {
+      "name": "KiaraSwordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kiara_sword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hololivemodfortnite/procedures/KiaraSwordLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/KiaraSword-Shield"
+    },
+    {
+      "name": "KiaraSword",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kiara_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hololivemodfortnite/models/item/kiara_sword.json",
+          "src/main/java/net/mcreator/hololivemodfortnite/item/KiaraSwordItem.java"
+        ]
+      },
+      "path": "~/KiaraSword-Shield"
+    },
+    {
+      "name": "KiaraShield",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kiara_shield",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hololivemodfortnite/item/KiaraShieldItem.java",
+          "src/main/resources/assets/hololivemodfortnite/models/item/kiara_shield.json"
+        ]
+      },
+      "path": "~/KiaraSword-Shield"
+    },
+    {
+      "name": "KiaraShieldActive",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kiara_shield_active",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hololivemodfortnite/models/item/kiara_shield_active.json",
+          "src/main/java/net/mcreator/hololivemodfortnite/item/KiaraShieldActiveItem.java"
+        ]
+      },
+      "path": "~/KiaraSword-Shield"
+    },
+    {
+      "name": "KiaraShieldRightClick",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kiara_shield_right_click",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hololivemodfortnite/procedures/KiaraShieldRightClickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/KiaraSword-Shield"
+    },
+    {
+      "name": "KiaraShieldPlayerAttacked",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kiara_shield_player_attacked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hololivemodfortnite/procedures/KiaraShieldPlayerAttackedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/KiaraSword-Shield"
+    },
+    {
+      "name": "KiaraShieldHoldSlowness",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kiara_shield_hold_slowness",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hololivemodfortnite/procedures/KiaraShieldHoldSlownessProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/KiaraSword-Shield"
+    },
+    {
+      "name": "PhoenixFireEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phoenix_fire_effect_startedapplied",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hololivemodfortnite/procedures/PhoenixFireEffectStartedappliedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/KiaraSword-Shield"
+    },
+    {
+      "name": "PhoenixFireEffectExpires",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phoenix_fire_effect_expires",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hololivemodfortnite/procedures/PhoenixFireEffectExpiresProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/KiaraSword-Shield"
+    },
+    {
+      "name": "PhoenixFire",
+      "type": "potioneffect",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phoenix_fire",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hololivemodfortnite/potion/PhoenixFireMobEffect.java"
+        ]
+      },
+      "path": "~/KiaraSword-Shield"
+    },
+    {
+      "name": "PhoenixFireHealing",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phoenix_fire_healing",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hololivemodfortnite/procedures/PhoenixFireHealingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/KiaraSword-Shield"
     }
   ],
   "variable_elements": [
     {
       "name": "damage",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "shielddamage",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "phoenixfireactive",
       "type": "number",
       "scope": "player_lifetime",
       "value": "0"
@@ -140,12 +361,20 @@
     "en_us": {
       "item.hololivemodfortnite.gura_trident": "Gura Trident",
       "item_group.hololivemodfortnite.references_creative_tab": "Holocraft References  ",
-      "item.hololivemodfortnite.itemxpotato": "X-Potato"
+      "item.hololivemodfortnite.kiara_sword": "Phoenix Sword",
+      "item.hololivemodfortnite.itemxpotato": "X-Potato",
+      "effect.hololivemodfortnite.phoenix_fire": "Soothing Flames",
+      "item.hololivemodfortnite.kiara_shield": "Phoenix Shield",
+      "item.hololivemodfortnite.kiara_shield_active": "Kiara Shield"
     },
     "ja_jp": {
       "item.hololivemodfortnite.gura_trident": "Gura Trident",
       "item_group.hololivemodfortnite.references_creative_tab": "Holocraft References  ",
-      "item.hololivemodfortnite.itemxpotato": "X-Potato"
+      "item.hololivemodfortnite.kiara_sword": "Kiara Sword",
+      "item.hololivemodfortnite.itemxpotato": "X-Potato",
+      "effect.hololivemodfortnite.phoenix_fire": "Phoenix Fire",
+      "item.hololivemodfortnite.kiara_shield": "Kiara Shield",
+      "item.hololivemodfortnite.kiara_shield_active": "Kiara Shield"
     }
   },
   "foldersRoot": {
@@ -153,6 +382,14 @@
     "children": [
       {
         "name": "X-Potato",
+        "children": []
+      },
+      {
+        "name": "GuraTrident",
+        "children": []
+      },
+      {
+        "name": "KiaraSword-Shield",
         "children": []
       }
     ]

@@ -1,0 +1,23 @@
+{
+  "_fv": 47,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Soothing Flames",
+    "icon": "phoenixfire.png",
+    "color": {
+      "value": -39373,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": true,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "PhoenixFireEffectStartedapplied"
+    },
+    "onExpired": {
+      "name": "PhoenixFireEffectExpires"
+    }
+  }
+}
