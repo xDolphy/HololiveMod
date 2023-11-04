@@ -22,6 +22,9 @@ public class HololivemodfortniteModTabs {
 				tabData.accept(HololivemodfortniteModItems.ITEMXPOTATO.get());
 				tabData.accept(HololivemodfortniteModItems.KIARA_SWORD.get());
 				tabData.accept(HololivemodfortniteModItems.KIARA_SHIELD.get());
+				tabData.accept(HololivemodfortniteModItems.DRINKING_GLASS.get());
+				tabData.accept(HololivemodfortniteModItems.HALU.get());
+				tabData.accept(HololivemodfortniteModItems.OLLIE_SWORD.get());
 			})
 
 					.build());

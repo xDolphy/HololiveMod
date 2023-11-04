@@ -1,0 +1,7 @@
+{
+  "parent": "hololivemodfortnite:custom/pathofsincerity",
+  "textures": {
+    "0": "hololivemodfortnite:block/olliesword",
+    "particle": "hololivemodfortnite:item/trident"
+  }
+}

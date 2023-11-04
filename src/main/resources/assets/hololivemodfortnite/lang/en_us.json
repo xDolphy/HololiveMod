@@ -1,9 +1,13 @@
 {
+  "item.hololivemodfortnite.kiara_sword": "Phoenix Sword",
+  "effect.hololivemodfortnite.phoenix_fire": "Soothing Flames",
+  "effect.hololivemodfortnite.hydrated": "Hydrated",
+  "item.hololivemodfortnite.kiara_shield_active": "Kiara Shield",
   "item.hololivemodfortnite.gura_trident": "Gura Trident",
   "item_group.hololivemodfortnite.references_creative_tab": "Holocraft References  ",
-  "item.hololivemodfortnite.kiara_sword": "Phoenix Sword",
+  "item.hololivemodfortnite.halu": "Halu",
   "item.hololivemodfortnite.itemxpotato": "X-Potato",
-  "effect.hololivemodfortnite.phoenix_fire": "Soothing Flames",
+  "item.hololivemodfortnite.drinking_glass": "Drinking Glass",
   "item.hololivemodfortnite.kiara_shield": "Phoenix Shield",
-  "item.hololivemodfortnite.kiara_shield_active": "Kiara Shield"
+  "item.hololivemodfortnite.ollie_sword": "Path Of Sincerity"
 }

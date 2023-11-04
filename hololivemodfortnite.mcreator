@@ -334,6 +334,135 @@
         ]
       },
       "path": "~/KiaraSword-Shield"
+    },
+    {
+      "name": "Hydrated",
+      "type": "potioneffect",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hydrated",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hololivemodfortnite/potion/HydratedMobEffect.java"
+        ]
+      },
+      "path": "~/Halu"
+    },
+    {
+      "name": "HaluPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "halu_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hololivemodfortnite/procedures/HaluPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Halu"
+    },
+    {
+      "name": "DrinkingGlass",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drinking_glass",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hololivemodfortnite/item/DrinkingGlassItem.java",
+          "src/main/resources/assets/hololivemodfortnite/models/item/drinking_glass.json"
+        ]
+      },
+      "path": "~/Halu"
+    },
+    {
+      "name": "Halu",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "halu",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hololivemodfortnite/models/item/halu.json",
+          "src/main/java/net/mcreator/hololivemodfortnite/item/HaluItem.java"
+        ]
+      },
+      "path": "~/Halu"
+    },
+    {
+      "name": "DrinkingGlassRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drinking_glass_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hololivemodfortnite/procedures/DrinkingGlassRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Halu"
+    },
+    {
+      "name": "DrinkingGlassRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drinking_glass_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hololivemodfortnite/recipes/drinking_glass_recipe.json"
+        ]
+      },
+      "path": "~/Halu"
+    },
+    {
+      "name": "OllieSword",
+      "type": "tool",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ollie_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hololivemodfortnite/item/OllieSwordItem.java",
+          "src/main/resources/assets/hololivemodfortnite/models/item/ollie_sword.json"
+        ]
+      },
+      "path": "~/OllieSword"
     }
   ],
   "variable_elements": [
@@ -359,22 +488,30 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.hololivemodfortnite.kiara_sword": "Phoenix Sword",
+      "effect.hololivemodfortnite.phoenix_fire": "Soothing Flames",
+      "effect.hololivemodfortnite.hydrated": "Hydrated",
+      "item.hololivemodfortnite.kiara_shield_active": "Kiara Shield",
       "item.hololivemodfortnite.gura_trident": "Gura Trident",
       "item_group.hololivemodfortnite.references_creative_tab": "Holocraft References  ",
-      "item.hololivemodfortnite.kiara_sword": "Phoenix Sword",
+      "item.hololivemodfortnite.halu": "Halu",
       "item.hololivemodfortnite.itemxpotato": "X-Potato",
-      "effect.hololivemodfortnite.phoenix_fire": "Soothing Flames",
+      "item.hololivemodfortnite.drinking_glass": "Drinking Glass",
       "item.hololivemodfortnite.kiara_shield": "Phoenix Shield",
-      "item.hololivemodfortnite.kiara_shield_active": "Kiara Shield"
+      "item.hololivemodfortnite.ollie_sword": "Path Of Sincerity"
     },
     "ja_jp": {
+      "item.hololivemodfortnite.kiara_sword": "Kiara Sword",
+      "effect.hololivemodfortnite.phoenix_fire": "Phoenix Fire",
+      "effect.hololivemodfortnite.hydrated": "Hydrated",
+      "item.hololivemodfortnite.kiara_shield_active": "Kiara Shield",
       "item.hololivemodfortnite.gura_trident": "Gura Trident",
       "item_group.hololivemodfortnite.references_creative_tab": "Holocraft References  ",
-      "item.hololivemodfortnite.kiara_sword": "Kiara Sword",
+      "item.hololivemodfortnite.halu": "Halu",
       "item.hololivemodfortnite.itemxpotato": "X-Potato",
-      "effect.hololivemodfortnite.phoenix_fire": "Phoenix Fire",
+      "item.hololivemodfortnite.drinking_glass": "Drinking Glass",
       "item.hololivemodfortnite.kiara_shield": "Kiara Shield",
-      "item.hololivemodfortnite.kiara_shield_active": "Kiara Shield"
+      "item.hololivemodfortnite.ollie_sword": "Path Of Sincerity"
     }
   },
   "foldersRoot": {
@@ -390,6 +527,14 @@
       },
       {
         "name": "KiaraSword-Shield",
+        "children": []
+      },
+      {
+        "name": "Halu",
+        "children": []
+      },
+      {
+        "name": "OllieSword",
         "children": []
       }
     ]
